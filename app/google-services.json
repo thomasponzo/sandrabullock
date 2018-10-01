@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "848567587293",
+    "firebase_url": "https://met-sandra-bullock.firebaseio.com",
+    "project_id": "met-sandra-bullock",
+    "storage_bucket": "met-sandra-bullock.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848567587293:android:e9448a7a9ab19802",
+        "android_client_info": {
+          "package_name": "com.tijdelijk.sandrabullock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848567587293-9en1jatbpcg6p5miit6n8eddvtfdloea.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tijdelijk.sandrabullock",
+            "certificate_hash": "d7ec60b938299decb6e01579c8c483925646c613"
+          }
+        },
+        {
+          "client_id": "848567587293-9tq42dghtejd5uk9felpfuhgbcati08m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfppUYeY-rPSaJfZ7vByT0-NnFH6eThmo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848567587293-9tq42dghtejd5uk9felpfuhgbcati08m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
