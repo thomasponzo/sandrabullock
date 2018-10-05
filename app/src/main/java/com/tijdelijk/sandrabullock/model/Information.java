@@ -1,40 +1,32 @@
 package com.tijdelijk.sandrabullock.model;
 
 public class Information {
-    private String tittle;
-    private String discription;
-    private String image;
+    private String Tittle;
+    private String Description;
+    private String Image;
+    private String Youtube;
 
     public Information() {
     }
 
-    public Information(String tittle, String discription, String image) {
-        this.tittle = tittle;
-        this.discription = discription;
-        this.image = image;
+    public Information(String tittle, String description, String image, String youtube) {
+        Tittle = tittle;
+        Description = description;
+        Image = image;
+        Youtube = youtube;
     }
+
+    public String getYoutube() { return Youtube; }
 
     public String getTittle() {
-        return tittle;
+        return Tittle;
     }
 
-    public void setTittle(String tittle) {
-        this.tittle = tittle;
-    }
-
-    public String getDiscription() {
-        return discription;
-    }
-
-    public void setDiscription(String discription) {
-        this.discription = discription;
+    public String getDescription() {
+        return Description;
     }
 
     public String getImage() {
-        return image;
-    }
-
-    public void setImage(String image) {
-        this.image = image;
+        return Image;
     }
 }
