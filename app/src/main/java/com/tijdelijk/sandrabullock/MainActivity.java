@@ -104,10 +104,6 @@ public class MainActivity extends AppCompatActivity {
         if (youTubePlayerFragment == null)
             return;
 
-
-
-
-
         adapter = new FirebaseRecyclerAdapter<Table, TableViewHolder>(options) {
             @Override
             protected void onBindViewHolder(@NonNull TableViewHolder holder, int position, @NonNull Table model) {
@@ -115,9 +111,7 @@ public class MainActivity extends AppCompatActivity {
                 holder.movie.setText(model.getMoviename());
                 holder.year.setText(model.getYear());
                 holder.role.setText(model.getRole());
-
             }
-
 
             @NonNull
             @Override
@@ -127,7 +121,6 @@ public class MainActivity extends AppCompatActivity {
                 return new TableViewHolder(view);
             }
         };
-
 
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getApplicationContext());
         recyclerView.setLayoutManager(linearLayoutManager);
@@ -316,12 +309,6 @@ public class MainActivity extends AppCompatActivity {
         if (adapter != null) {
             adapter.startListening();
         }
-    }
-
-    /**
-     * initialize youtube player via Fragment and get instance of YoutubePlayer
-     */
-    private void initializeYoutubePlayer() {
     }
 }
 
